@@ -1,0 +1,20 @@
+SHA1 - encriptador de arquivos e outros - gera um conjunto de caracteres de 40 digitos
+openssl sha1 adc.txt - gerar hash
+
+Objetos do GIT:
+	Blobs - bloco do arquivo
+	Trees - armazenamento dos blobs
+	Commits - alteração nos arquivos, mensagem, autor, timestamp
+
+Chaves SSH e Tokens
+	chave publica e privada
+ssh-keygen -t ed25519 -C vinicius.hd.ti@gmail.com - gerar chave publica
+eval $(ssh-agent -s) - iniciar ssh agent
+
+Comandos GIT
+	git init
+	git add *
+	git commit -m "mensagem"
+	git status
+
+

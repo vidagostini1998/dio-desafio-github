@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align content</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .start{
+            align-content: flex-start;
+        }
+
+        .end{
+            align-content: flex-end;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+
+    <p>Flex start</p>
+    <div class="container start">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+
+    <p>Flex end</p>
+    <div class="container end">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+
+    <p>Space between</p>
+    <div class="container space-between">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+
+    <p>Space around</p>
+    <div class="container space-around">
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sequi, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, blanditiis  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quia  
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem a molestiae 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 class ContaBancaria {
-    constructor(agencia, numero, tipo, saldo) {
+    constructor(agencia, numero, tipo) {
         this.agencia = agencia;
         this.numero = numero;
         this.tipo = tipo;
